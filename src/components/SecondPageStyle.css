@@ -1,0 +1,163 @@
+.second-page .text-box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 698px;
+    height: 194px;
+    left: 515px;
+    top: 1244px;
+}
+
+.text-box2 h1{
+    width: 458px;
+    height: 118px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+}
+
+.text-box2 p{
+    width: 698px;
+    height: 52px;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    color: #182F43;
+}
+.subscribe-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 1200px;
+    height: 388px;
+    left: 264px;
+    top: 1538px;
+
+}
+.subscribe-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 60px;
+    width: 1200px;
+    height: 306px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    width: 320px;
+    height: 237px;
+}
+.number{   
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    background: rgba(203, 244, 246, 0.4);
+    border: 1.5px solid #1D9EA5;
+}
+.number h3{
+    margin: auto;
+    width: 14px;
+    height: 37px;
+    margin-top: 20px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 120%;
+    color: #003E53;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+    width: 320px;
+    height: 123px;
+    text-align: center;
+    
+}
+.content h5{
+    font-family: 'Libre Baskerville', serif;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 120%;
+    text-align: center;
+    color: #333333;
+    
+}
+.content p{
+    width: 320px;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    color: #182F43;
+}
+.content span{
+    font-weight: 700;
+    color: #182F43;
+}
+.vl{
+    width: 0px;
+    height: 306px;
+    border-right: 0.5px solid #7B7B7B;
+    opacity: 0.5;
+}
+.subscribe-section button{
+    width: 189px;
+    height: 42px;
+    background: #58BADB;
+    border-radius: 12px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 8px 38px;
+    gap: 10px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 20px;
+}
+@media screen and (max-width: 480px) {
+    .second-page .text-box2{
+        left: 40px;
+        width: 400px;
+    }
+    .text-box2 h1{
+        font-size: 28px;
+    }
+    .text-box2 p{
+        width: 300px;
+    }
+    .subscribe-section{
+        left: 40px;
+        width: 400px;
+        top: 1800px;
+        
+    }
+    .subscribe-cards{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .subscribe-section button{
+        margin-top: 250px;
+    }
+}

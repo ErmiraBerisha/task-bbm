@@ -1,0 +1,136 @@
+.fourth-section{
+    position: absolute;
+    height: 1067px;
+    width: 1666px;
+    left: 31px;
+    top: 3293px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 54px;
+
+}
+.fourth-section-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 698px;
+    height: 135px;
+}
+
+.fourth-section h1{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 120%;
+    color: #000000;
+}
+.fourth-section p{
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: center;
+    color: #182F43;
+}
+
+.image-wrapper{
+    display: flex;
+    gap: 30px;
+    height: 878px;   
+}
+
+.box{
+    position: relative;
+    transition: width 1s ease-in-out;
+}
+
+.text-wrapper{
+    display: none;
+    background-image: url("../assets/Frame.png");
+    position: absolute;
+    width: 100%;
+    height: 272px;
+    bottom: 0;
+    color: #FFFFFF;
+}
+.text-wrapper h2{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 120%;
+    height: 37px;
+}
+.text-wrapper p{
+    width: 344px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px !important;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+  
+  
+.image-wrapper img { 
+    width: 100%;
+    height: 878px;
+    object-fit: cover;
+}
+  
+.box:hover {
+    width: 1046px;
+}
+  
+.box:hover .text-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition-timing-function: 0.8s ease-in-out;
+}
+
+@media screen and (max-width: 480px) {
+   .fourth-section{
+    top: 6400px;
+    width: 400px;
+    height: 400px;
+    left: 40;
+   }
+   .fourth-section-title{
+    width: 350px;
+    
+   }
+   .fourth-section-title h1{
+    font-size: 26px;
+   }
+   .image-wrapper{
+    gap: 5px;
+    height: 200px;
+   }
+   .image-wrapper img{
+    height: 200px;
+   }
+   .box:hover{
+    width: 350px;
+   }
+
+   .text-wrapper{
+    height: 50px;
+    width: 100%;
+   }
+   .text-wrapper h2{
+    font-size: 14px;
+   }
+   .text-wrapper p{
+    font-size: 10px;
+    width: 100%;
+   }
+   
+   
+}

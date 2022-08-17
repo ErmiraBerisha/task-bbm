@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body{
+  width:1728px;
+  background-color: #FFFFFF!important;
+}
+
+.blue-btn{
+  background-color: #58BADB !important;
+  border-radius: 12px;
+  color: #FFFFFF;
+  border: none;
+}
+
+button{
+  cursor: pointer;
+}
+p{
+  font-family: Lexend Deca;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 480px) {
+  body{
+    width: 480px;
+  }
+  
+}
+

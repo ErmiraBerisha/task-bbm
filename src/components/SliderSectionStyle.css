@@ -1,0 +1,194 @@
+.slider-section{
+    position: absolute;
+    height: 650px;
+    width: 1474px;
+    left: 224px;
+    top: 5167px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+}
+.slider .swiper-button-next{
+    background-color: #1ECAD3;
+    color:transparent;
+    background-image: url("../assets/icons8-up-arrow-30.png");
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: right 18px bottom 18px;
+    width: 54px;
+    height: 54px;
+    border: none;
+    position: absolute;
+    left: 1240px;
+    top: 253px;
+    z-index: 5;
+    border-radius: 50%;
+}
+
+.slider .swiper-button-prev{
+    display: none;
+}
+.slider{
+    width: 1474px;
+    height: 500px;
+    display: flex;
+}
+
+.slide .slide-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 33px;
+    width: 807px;
+    height: 500px;
+}
+.slide .slide-content2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 33px;
+    width: 807px;
+    height: 500px;
+    position: relative;
+    left: -15px;
+}
+
+.slide .slide-content .card-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 25px;
+    width: 414px;
+    height: 289px;
+}
+
+.slide .slide-content2 .card-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    width: 414px;
+    height: 289px;
+    
+}
+
+.slide .image{
+    width:360px;
+    height: 500px;
+   
+}
+.slide .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slider-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 18px;
+    height: 107px;
+    width: 806px;
+    margin-left: -170px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.slider-title h2{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 120%;
+    color: #333333;
+}
+
+.slider-title p{
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    color: #182F43;
+
+}
+
+.slide h5{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #333333;
+}
+.icons{
+    display: flex;
+    gap: 5px;
+}
+.slide p{
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #003E53;
+}
+
+
+@media screen and (max-width: 480px) {
+    .slider-section{
+        left: 0px;
+        top: 7097px;
+        width: 480px;
+    }
+    .slider-title{
+        width: 400px;
+       margin-left: 20px;
+    }
+    .slider{
+        width: 400px;
+        position: relative;
+        top: 30px;
+    }
+   .slide .image {
+    width: 220px;
+   }
+   .slide-content .image{
+    width: 220px;
+    position: absolute;
+   }
+   .slide .slide-content{
+    width: 300px;
+   }
+   .slider .swiper-button-next{
+    left: 20px;
+   }
+   .slide .slide-content .card-text{
+    gap: 0;
+    width: 190px;
+    position: relative;
+    left: 250px;
+   }
+   .slide .slide-content2 .card-text{
+    gap: 0;
+    width: 190px;
+   }
+   .slide p{
+    font-size: 12px;
+   }
+   .slide .slide-content2{
+    align-items: flex-start;
+    padding-top: 10px;
+   }
+   .slide .slide-content{
+    align-items: flex-start;
+    padding-top: 10px;
+   }
+}
+
+
+

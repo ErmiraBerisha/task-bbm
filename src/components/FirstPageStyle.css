@@ -1,0 +1,139 @@
+
+main{
+    position: absolute;
+    width: 1665px;
+    height: 834px;
+    left: 31px;
+    top: 91px;
+    background-color: #ECFAFB;
+    display: flex;
+
+}
+.text-box{
+    position: absolute;
+    width: 464px;
+    height: 286px;
+    left: 193px;
+    top: 273px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+}
+.text-box h1{
+    color: #006BA6;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 120%;
+    font-family:'Libre Baskerville', serif;
+}
+.text-box p{
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.text-box button{
+    width: 189px;
+    height: 42px;
+    color: #FFFFFF;
+    background: #006BA6;
+    border-radius: 12px;
+    border: none;
+}
+
+.left-section{
+    height: 834px;
+    width: 834px;
+    border-radius: 0px;
+    background: url("../assets/Vector.png");
+    background-repeat: no-repeat;
+}
+.left-section .half-circle{
+    height: 833px;
+    width: 417px;
+    border-radius:0px 500px 500px 0;
+    background: rgba(30, 202, 211, 0.65);
+}
+main .middle-section{
+    height: 832px;
+    width: 416px;
+    border-radius: 0px;
+    background: url("../assets/Vector1.png");
+    background-repeat: no-repeat;
+
+}
+main .right-section{
+    height: 832px;
+    width: 416px;
+    border-radius: 0px;
+    background: url("../assets/vector2.png");
+    background-repeat: no-repeat;
+    backdrop-filter: blur(184px);
+
+}
+
+.firstpage-footer p{
+    position: absolute;
+    width: 95px;
+    left: 817px;
+    top: 988px;
+    color: #767676;
+}
+
+.firstpage-footer .marquee-slider{
+    position: absolute;
+    width: 1348px;
+    height: 69px;
+    left: 179px;
+    top: 1025px;
+}
+hr {
+    border: 1px solid #F0F0F0;
+    margin-top: 17px;
+}
+@media screen and (max-width: 480px) {
+    main{
+        width: 480px;
+        left: 0px;
+    }
+    .text-box{
+        left: 20px;
+        z-index: 4;
+        width: 380px;
+    }
+    .text-box h1{
+        font-size: 28px;
+    }
+    .text-box p{
+        font-size: 14px;
+    }
+    .left-section{
+        width: 320px;
+        z-index: 3;
+        position: absolute;
+        left: -160px;
+    }
+    .middle-section{
+        width: 30px;
+        position: absolute;
+        left: -125px;
+        z-index: 1;
+      
+    }
+    .right-section{
+        position: absolute;
+        left: 60px;
+        
+    }
+    .firstpage-footer p{
+        left: 220px;
+    }
+    .firstpage-footer .marquee-slider{
+        width: 480px;
+        left: 0;
+    }
+    
+  }
+
+
+

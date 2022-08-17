@@ -1,0 +1,171 @@
+.newsletter-section{
+    position: absolute;
+    width: 1728px;
+    height: 338px;
+    left: 0px;
+    top: 5967px;
+    display: flex;
+}
+
+.form-section{
+    height: 338px;
+    width: 1391px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background: #BCEBEF;
+}
+.shape1{
+    height: 338px;
+    width: 170px;
+    border-radius:0px 500px 500px 0;
+    background: #BCEBEF;
+}
+.shape2{
+    height: 338px;
+    width: 170px;
+    background: #BCEBEF;
+    border-radius:500px 0px 0px 500px;
+}
+.wrapper{
+    position: absolute;
+    width: 938.5px;
+    height: 146px;
+    left: 348px;
+    top: 94px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-side h3{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 120%;
+    text-align: center;
+    color: #0069A7;
+}
+
+.right-side button{
+    width: 131px;
+    height: 46px;
+    background: #58BADB;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 25px;
+    padding-top: 28px;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    width: 425.5px;
+    height: 146px;
+    align-items: center;
+}
+
+.left-side h5{
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #0069A7;
+}
+
+.left-side h3{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 120%;
+    text-align: center;
+    color: #0069A7;
+    margin-bottom: 25px;
+}
+
+.left-side input{
+background: #FFFFFF;
+border: 1px solid #BCEBEF;
+border-radius: 6px;
+height: 48px;
+width: 309px;
+}
+input::placeholder{
+    font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 22px;
+padding-left: 16px;
+color: #DFDFDF;
+}
+
+.left-side button{
+    height: 46px;
+    width: 100px;
+    border-radius: 8px;
+    padding: 10px, 24px, 10px, 24px;
+    background: #1ECAD3;
+    color: #FFFFFF;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    border: none;
+    margin-left: 16.5px;
+
+}
+
+.left-side label{
+    display: block;
+}
+
+@media screen and (max-width: 480px) {
+    .newsletter-section{
+        width: 480px;
+        top: 7815px;
+    }
+    .wrapper{
+        left: 20px; 
+        width: 460px;
+    }
+    
+    .right-side h3{
+        font-size: 18px;
+    }
+    .left-side h3{
+        font-size: 18px;
+    }
+    .shape1, .shape2{
+        display: none;
+    }
+    .left-side input{
+        width: 190px;
+    }
+    .right-side button{
+        width: 125px;
+        font-size: 12px;
+    }
+    .left-side button{
+        width: 90px;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+}
