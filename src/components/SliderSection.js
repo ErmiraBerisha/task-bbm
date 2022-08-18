@@ -24,14 +24,7 @@ const data = [
     }
 ]
    
-const breakpoints= [
-    
-    {width: 480, itemsToShow: 1},
-    {width: 800, itemsToShow: 2},
-    {width: 1000, itemsToShow: 2},
-    {width: 1300, itemsToShow: 2},
 
-]
 
 const SliderSection = () => {
   return (
